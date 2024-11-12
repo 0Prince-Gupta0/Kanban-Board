@@ -1,0 +1,83 @@
+.kanban-card {
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .card-header {
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-avatar {
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-title>h2 {
+    font-size: 14px;
+    color: #b4afaf;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .priority-label {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .priority-1 .priority-label {
+    background-color: #e74c3c; /* High priority color */
+  }
+  
+  .priority-2 .priority-label {
+    background-color: #f1c40f; /* Medium priority color */
+  }
+  
+  .priority-3 .priority-label {
+    background-color: #2ecc71; /* Low priority color */
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-top: 10px;
+  }
+  
+  .feature-request-label {
+    background-color: white;
+    padding: 5px 10px;
+    border: #ccc solid ;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #555;
+    margin-left: 10px;
+  }
+  
